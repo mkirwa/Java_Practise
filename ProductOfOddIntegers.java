@@ -1,5 +1,7 @@
 /////////////////////////////////
-//////Calculating odd integers from 1 to 15
+//////Calculating odd integers from 1 to 15 using arrays
+
+
 
 import java.util.Scanner;
 
@@ -12,6 +14,51 @@ public class ProductOfOddIntegers
 		public static void main(String[]args)
 
 		{
+			//Product of odd integers using arrays
+
+
+
+			//Creating a scanner object
+			Scanner input = new Scanner (System.in);
+
+			int x = input.nextInt();
+			
+			int array[] = new int[x];
+
+			int product = 1;
+
+
+			for(int i = 0; i< x; i++)
+			{
+				array[i] = input.nextInt();
+			}
+
+
+			for(int j = 0; j< array.length; j++)
+			{
+				if(array[j]%2==1)
+				{
+				product = product * array[j];
+			    }
+
+			}
+
+			System.out.println(product);
+
+		}
+
+
+		
+
+
+
+public class ProductOfOddIntegers()
+
+			{
+
+
+
+		
 
 			int product=1;
 			
@@ -25,15 +72,8 @@ public class ProductOfOddIntegers
 
 			System.out.println(product);
 
-			//storing the test cases in an array
-			//finding the product of odd numbers in the test cases
-			//printing the output
 
-
-		}
-
-
-
+	
 
 
 }
