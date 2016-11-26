@@ -30,6 +30,12 @@ class ABC
 
 */
 
+
+
+//Using static methods
+
+
+
 public class StaticProp
 {
 
@@ -56,7 +62,7 @@ class ABC
 	//You cannot declare a variable before the static method and use it.
 	//You can only do that by making the variable static
 	//For example
-	
+
 	Static int i;
 
 	public static void show()
