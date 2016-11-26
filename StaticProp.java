@@ -37,8 +37,10 @@ public class StaticProp
 	{
 
 
-		
+		//using static variable
 
+
+		ABC.i = 5;
 		ABC.show();
 
 
@@ -48,6 +50,14 @@ public class StaticProp
 
 class ABC
 {
+
+	//Using static variables
+
+	//You cannot declare a variable before the static method and use it.
+	//You can only do that by making the variable static
+	//For example
+	
+	Static int i;
 
 	public static void show()
 	{
